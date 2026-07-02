@@ -60,8 +60,8 @@ Antes de começar, você precisa ter instalado em sua máquina:
 Para rodar em modo oculto (`headless`), siga o passo a passo:
 ```bash
 pkg update && pkg upgrade -y
-pkg install tur-repo -y
-pkg install chromium-chromedriver -y
+pkg install tur-repo x11-repo -y
+pkg install chromium -y
 ```
 *Lembre-se de adaptar as opções do WebDriver no seu código para apontar para o binário do ChromeDriver instalado pelo Termux.*
 
